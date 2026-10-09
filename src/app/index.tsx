@@ -214,7 +214,7 @@ const Index = () => {
         <View style={styles.alertButton}>
           <Button
             title="Alert"
-            onPress={() => Alert.alert("Alert Button pressed!")}
+            onPress={() => Alert.alert("Alert Button pressed")}
           />
         </View>
       </ScrollView>
