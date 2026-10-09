@@ -1,11 +1,11 @@
 import { Feather, Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import {
+  Alert,
+  Button,
   Image,
   ScrollView,
   StyleSheet,
   Text,
-  Alert,
-  Button,
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -212,7 +212,10 @@ const Index = () => {
         <View style={styles.divider} />
 
         <View style={styles.alertButton}>
-          <Button title="Alert" onPress={() => Alert.alert("Alert Button pressed!")} />
+          <Button
+            title="Alert"
+            onPress={() => Alert.alert("Alert Button pressed!")}
+          />
         </View>
       </ScrollView>
       <View style={styles.navbar}>
@@ -339,6 +342,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 16,
     marginVertical: 20,
     borderRadius: 8,
-    overflow: 'hidden',
+    overflow: "hidden",
   },
 });
