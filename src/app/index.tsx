@@ -27,7 +27,7 @@ const Index = () => {
           {/* left side of card, profile pic*/}
           <View style={styles.leftSide}>
             <Image
-              source={{ uri: "https://i.pravatar.cc/150" }}
+              source={{ uri: "https://i.pravatar.cc/150?img=12](https://i.pravatar.cc/150?img=12" }}
               style={styles.profilePic}
             />
           </View>
@@ -48,7 +48,7 @@ const Index = () => {
           {/* left side of card, profile pic*/}
           <View style={styles.leftSide}>
             <Image
-              source={{ uri: "https://i.pravatar.cc/150" }}
+              source={{ uri: "https://i.pravatar.cc/150?img=33](https://i.pravatar.cc/150?img=33" }}
               style={styles.profilePic}
             />
           </View>
@@ -77,19 +77,19 @@ const Index = () => {
             >
               <Image
                 source={{
-                  uri: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+                  uri: "https://picsum.photos/seed/hike1/600/450",
                 }}
                 style={styles.carouselImage}
               />
               <Image
                 source={{
-                  uri: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+                  uri: "https://picsum.photos/seed/hike2/600/450",
                 }}
                 style={styles.carouselImage}
               />
               <Image
                 source={{
-                  uri: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+                  uri: "https://picsum.photos/seed/hike3/600/450",
                 }}
                 style={styles.carouselImage}
               />
@@ -141,7 +141,7 @@ const Index = () => {
           {/* left side of card, profile pic*/}
           <View style={styles.leftSide}>
             <Image
-              source={{ uri: "https://i.pravatar.cc/150" }}
+              source={{ uri: "https://i.pravatar.cc/150?img=60](https://i.pravatar.cc/150?img=60" }}
               style={styles.profilePic}
             />
           </View>
@@ -177,7 +177,7 @@ const Index = () => {
                   style={styles.actionIcon}
                   size={20}
                 />
-                <Text style={styles.actionCount}>670</Text>
+                <Text style={styles.actionCount}>2,345</Text>
               </View>
 
               {/* Comment */}
@@ -187,7 +187,7 @@ const Index = () => {
                   style={styles.actionIcon}
                   size={20}
                 />
-                <Text style={styles.actionCount}>61</Text>
+                <Text style={styles.actionCount}>101</Text>
               </View>
 
               {/* Repost */}
@@ -197,13 +197,13 @@ const Index = () => {
                   style={styles.actionIcon}
                   size={22}
                 />
-                <Text style={styles.actionCount}>18</Text>
+                <Text style={styles.actionCount}>59</Text>
               </View>
 
               {/* Share */}
               <View style={styles.actionItem}>
                 <Feather name="send" style={styles.actionIcon} size={18} />
-                <Text style={styles.actionCount}>13</Text>
+                <Text style={styles.actionCount}>45</Text>
               </View>
             </View>
           </View>
@@ -220,11 +220,11 @@ const Index = () => {
       </ScrollView>
       <View style={styles.navbar}>
         <Ionicons name="home" size={26} style={styles.navIconCurrent} />
-        <Ionicons name="send-outline" size={26} style={styles.navIcon} />
+        <Ionicons name="paper-plane-outline" size={26} style={styles.navIcon} />
         <Ionicons name="add-outline" size={26} style={styles.navIcon} />
         <Ionicons name="heart-outline" size={26} style={styles.navIcon} />
         <Image
-          source={{ uri: "https://i.pravatar.cc/150" }}
+          source={{ uri: "https://i.pravatar.cc/150?img=12](https://i.pravatar.cc/150?img=12" }}
           style={styles.profilePicNav}
         />
       </View>
